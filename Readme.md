@@ -1,23 +1,37 @@
-Mood-sense
+##Mood-sense
 ---------------------
 
 
-*Project Title
+#Getting Started
+Mood-sense is a project to practice python web frameworks by using python3 and TravisCI.
 
-*Getting Started
+#Prerequisites
 
-*Prerequisites
+`Python3
+TravisCI
+Flask
+Git`
 
-*Installing
 
-*Running the Test
+#Installing
+pending
 
-*Versioning
+#Running the Test
+pending
 
-*Authors
+#Versioning
+0.1
 
-*License
+#Authors
+Paul Barajas <paul.barajas@linux.com>
 
-*Acknowledgements
+#Contributors
+pending
+
+#License
+GNU Affero General Public License v3.0
+
+#Acknowledgements
+pending
 
 
