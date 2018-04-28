@@ -5,7 +5,7 @@ Mood-sense
 **Getting Started**\
 Mood-sense is a project to practice python web frameworks by using python3 and TravisCI.
 
-**Prerequisites** \
+**Prerequisites**\
 
 `Python3
 TravisCI
