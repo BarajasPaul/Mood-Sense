@@ -11,7 +11,7 @@ class FlaskApiTest(unittest.TestCase):
         self.client.testing = True
 
     def test_flask_work(self):
-        response = self.client.options('/')
+        response = self.client.options('/hello')
         self.assertEqual(response.status_code, 200)
 
     def test_flask_fail(self):
