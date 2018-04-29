@@ -9,5 +9,5 @@ setup(
     author='Paul Barajas',
     author_email='paul.barajas@linux.com',
     url='https://github.com/BarajasPaul/Mood-Sense',
-    packages=['flask', 'passlib', 'flask-mongoengine'],
+    packages=['flask', 'passlib', 'flask-mongoengine', 'flask_httpauth'],
 )
