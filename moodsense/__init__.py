@@ -8,7 +8,7 @@ app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 app.config['MONGODB_SETTINGS'] = {'db': 'Users'}
-app.config['SECRET_KEY'] = '123456790'
+app.config['SECRET_KEY'] = 'YOUR_PASSPHRASE'
 db = MongoEngine(app)
 
 from moodsense import views
