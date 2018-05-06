@@ -1,18 +1,7 @@
 from moodsense import app, db, auth
 
-from passlib.hash import sha256_crypt
 from flask import request, jsonify, abort
 
-
-class UserAuth(db.Document):
-    name = db.StringField(max_length=80, unique=True)
-    password = db.StringField(max_length=256)
-
-    def hash_password(self, password):
-        self.password = sha256_crypt.encrypt(password)
-
-    def verify_password(self, password):
-        return  sha256_crypt.verify(password, self.password)
 
 
 @app.route("/api/users", methods = ['POST'])
